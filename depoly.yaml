@@ -4,8 +4,8 @@ services:
   service-1:
     image: fenildocker/llama3-70b
     expose:
-      - port: 80
-        as: 80
+      - port: 8501
+        as: 8501
         to:
           - global: true
 profiles:
